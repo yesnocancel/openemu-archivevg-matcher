@@ -13,11 +13,19 @@ Have fun! No warranties if you mess up your library - make a backup first!
 
 Usage
 -----
+```
+Usage: ./openemu-archivevg-matcher.rb [OPTIONS]
+
+Options
+    -a YOUR_ARCHIVE_VG_APIKEY,       Your Archive.vg API key
+        --apikey
+    -d, --database FILEPATH          path to your OpenEmu library database
+    -h, --help                       help
+```
+
 * Quit OpenEmu!
-* Insert your archive.vg API key
-```
-./ruby  
-```
+* Execute the script
 * Restart OpenEmu
 * Mark and select the corresponding ROMs
 * Right-click and select "Get Cover Art from archive.vg".
+
